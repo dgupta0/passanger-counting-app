@@ -1,0 +1,70 @@
+body {
+   background-image: url("station.jpg");
+   background-size: cover; 
+   font-family: "Cabin";
+  height: 100vh;
+}
+
+#intro {
+   text-align: center;
+   font-weight: bolder;
+   color: #E1E1DA;
+  background-color: #8C363D;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  padding: 10px 15px 10px 15px;
+}
+
+#behave {
+    background-color: rgba(140, 54, 61, 0.97);
+    color: #E1E1DA;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 40px;
+    padding-top: 10px;
+   
+}
+
+#count-el {
+    font-size: 50px;
+}
+
+.btn{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Cabin";
+    font-size: 20px;
+    font-weight: bold;
+    color: #E1E1DA;
+    display: block;
+    
+}
+
+#increment-el {
+    border-bottom: 2px solid #183E06;
+    border-top: 2px solid #183E06; 
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    background-color: #183E06;
+    text-shadow: 0px 0px 2px black; 
+}
+
+#save-el {
+    border-bottom: 2px solid #0D307C;
+    border-top: 2px solid #0D307C;
+    text-shadow: 0px 0px 2px black; 
+    margin-top: 20px;
+    padding: 10px 40px 10px 40px;
+    background-color: #0D307C;
+    border-radius: 5px;
+}
+
+#prev-el{
+    font-size: 25px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
